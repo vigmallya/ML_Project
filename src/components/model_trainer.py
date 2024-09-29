@@ -58,7 +58,7 @@ class ModelTrainer:
             if best_model_score<0.6:
                 raise CustomException("No best model found")
             
-            logging.info(f"{best_model} is the best found model on both training and testing dataset")
+            logging.info(f"{best_model_name} is the best found model on both training and testing dataset")
 
             #Saving model_trainer as pickle file
             save_object(
