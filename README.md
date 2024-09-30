@@ -105,6 +105,7 @@ params = {
 ### 1. **AWS Elastic Beanstalk**:
    - Create an environment and set up a continuous deployment pipeline using CodePipeline.
    - Elastic Beanstalk automatically sets up the infrastructure for hosting the application.
+   - To host the project in AWS, rename app.js to application.js
 
 ### 2. **Azure Web App**:
    - Create a new web app on Azure, connect it to GitHub for automatic deployment using GitHub Actions.
